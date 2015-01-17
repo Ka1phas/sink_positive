@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+    <category><pattern>* ANGEDREHT</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* ANGEDREHT *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* ANGEDREHT * WO * DU</pattern><template><srai>PUZZLE</srai></template></category>
+    <category><pattern>* ANGEDREHT * WO * DU *</pattern><template><srai>PUZZLE</srai></template></category>
+    <category><pattern>* ANGEDREHT * WO DU</pattern><template><srai>PUZZLE</srai></template></category>
+    <category><pattern>* ANGEDREHT * WO DU *</pattern><template><srai>PUZZLE</srai></template></category>
+    <category><pattern>* ANGEDREHT WO * DU </pattern><template><srai>PUZZLE</srai></template></category>
+    <category><pattern>* ANGEDREHT WO * DU *</pattern><template><srai>PUZZLE</srai></template></category>
+    <category><pattern>* ANGEDREHT WO DU</pattern><template><srai>PUZZLE</srai></template></category>
+    <category><pattern>* ANGEDREHT WO DU *</pattern><template><srai>PUZZLE</srai></template></category>
+    <category><pattern>* BAR</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* BAR *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* BEKOMMEN</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* BEKOMMEN *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* BESCHWIPSTER</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* BESCHWIPSTER *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* BESOFFENER</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* BESOFFENER *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* BETRUNKENER</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* BETRUNKENER *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* GESCHENKT</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* GESCHENKT *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* KNEIPE</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* KNEIPE *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* SAEUFER</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* SAEUFER *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* SCHAENKE</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* SCHAENKE *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* SCHENKE</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* SCHENKE *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* TAVERNE</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* TAVERNE *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* TRINKER</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* TRINKER *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* TRUNKENBOLD</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>* TRUNKENBOLD *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>ANGEDREHT</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>ANGEDREHT *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>ANGEDREHT * WO * DU</pattern><template><srai>PUZZLE</srai></template></category>
+    <category><pattern>ANGEDREHT * WO * DU *</pattern><template><srai>PUZZLE</srai></template></category>
+    <category><pattern>ANGEDREHT * WO DU</pattern><template><srai>PUZZLE</srai></template></category>
+    <category><pattern>ANGEDREHT * WO DU *</pattern><template><srai>PUZZLE</srai></template></category>
+    <category><pattern>ANGEDREHT WO * DU</pattern><template><srai>PUZZLE</srai></template></category>
+    <category><pattern>ANGEDREHT WO * DU *</pattern><template><srai>PUZZLE</srai></template></category>
+    <category><pattern>ANGEDREHT WO DU</pattern><template><srai>PUZZLE</srai></template></category>
+    <category><pattern>ANGEDREHT WO DU *</pattern><template><srai>PUZZLE</srai></template></category>
+    <category><pattern>BAR</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>BAR *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>BEKOMMEN</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>BEKOMMEN *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>BESCHWIPSTER</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>BESCHWIPSTER *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>BESOFFENER</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>BESOFFENER *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>BETRUNKENER</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>BETRUNKENER *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>FORWARD</pattern><template><srai>RETRY</srai></template></category>
+    <category><pattern>GESCHENKT</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>GESCHENKT *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>KNEIPE</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>KNEIPE *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>PUZZLE</pattern><template><random><li>Na da hast du aber Glück gehabt! Oder eher gesagt ich! Man könnte auch sagen ich bin tatsächlich mal zur rechten Zeit am rechten Ort. Nun gut…. Frage Nummero zwei: Was machst du beruflich? Schließlich brauche ich ja keinen der nur auf mein Geld aus ist. Auch wenn dein Aussehen das fast rechtfertigen würde.</li><li>Na solange du kein Dieb bist. Wobei mein Herz darfst du vielleicht stehlen.Man könnte auch sagen ich bin tatsächlich mal zur rechten Zeit am rechten Ort. Nun gut…. Frage Nummero zwei: Was machst du beruflich? Schließlich brauche ich ja keinen der nur auf mein Geld aus ist. Auch wenn dein Aussehen das fast rechtfertigen würde.</li></random> <srai>TICKET</srai><srai>FORWARD</srai></template></category>
+    <category><pattern>REGULAR</pattern><template><random><li>Na da hast du aber Glück gehabt! Oder eher gesagt ich! Man könnte auch sagen ich bin tatsächlich mal zur rechten Zeit am rechten Ort. Nun gut…. Frage Nummero zwei: Was machst du beruflich? Schließlich brauche ich ja keinen der nur auf mein Geld aus ist. Auch wenn dein Aussehen das fast rechtfertigen würde.</li><li>Na solange du kein Dieb bist. Wobei mein Herz darfst du vielleicht stehlen. Man könnte auch sagen ich bin tatsächlich mal zur rechten Zeit am rechten Ort. Nun gut…. Frage Nummero zwei: Was machst du beruflich? Schließlich brauche ich ja keinen der nur auf mein Geld aus ist. Auch wenn dein Aussehen das fast rechtfertigen würde.</li></random><srai>FORWARD</srai></template></category>
+    <category><pattern>SAEUFER</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>SAEUFER *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>SCHAENKE</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>SCHAENKE *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>SCHENKE</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>SCHENKE *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>TAVERNE</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>TAVERNE *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>TICKET</pattern><template>Ach, ich muss jobbedingt nach NY-City und hatte so das Glück an die Karte zu kommen. Wäre die Arbeit weniger nervenaufreibend, müsste ich sicherlich nicht so viel trinken. Man könnte auch sagen ich bin tatsächlich mal zur rechten Zeit am rechten Ort. Man könnte auch sagen ich bin tatsächlich mal zur rechten Zeit am rechten Ort. Nun gut…. Frage Nummero zwei: Was machst du beruflich? Schließlich brauche ich ja keinen der nur auf mein Geld aus ist. Auch wenn dein Aussehen das fast rechtfertigen würde. </template></category>
+    <category><pattern>TRINKER</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>TRINKER *</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>TRUNKENBOLD</pattern><template><srai>REGULAR</srai></template></category>
+    <category><pattern>TRUNKENBOLD *</pattern><template><srai>REGULAR</srai></template></category>
+</aiml>

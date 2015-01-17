@@ -1,0 +1,118 @@
+<!doctype html>
+<html class="no-js" lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sink - Positive</title>
+    <link rel="stylesheet" href="stylesheets/foundation.css" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    
+  </head>
+  <body>
+      <div class="row">
+        <div class="large-12 columns">
+            
+            <!-- TOP-BAR -->
+            <div class="row">
+                <div class="fixed">
+                    <nav class="top-bar" data-topbar role="navigation">
+                        <ul class="title-area">
+                            <li class="name">
+                                <h1><a href="#">Sink-Positive | Kapitel 1</a></h1>
+                            </li>
+
+                            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+
+                            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                        </ul>
+
+                        <section class="top-bar-section">
+
+                            <!-- Right Nav Section -->
+
+                            <ul class="right">
+                                <li><a href="#">Beenden</a></li>
+                            </ul>
+
+                            <!-- Left Nav Section -->
+
+                            <ul class="left">
+                                <li class="has-dropdown">
+                                    <a href="#">Funktionen</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#" onclick="setFontSize()">Schriftgröße ändern</a></li>
+                                        <li><a href="#" onclick="changeBg()">Nachtmodus an/aus</a></li>
+                                        <li><a href="#" onclick="safe()">Speichern</a></li>
+                                        <li><a href="#" onclick="load()">Spiel laden</a></li>
+                                        <li><a href="#">Ton aus</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </section>
+                    </nav>
+                </div>
+            </div>
+            
+            <!-- CONTENT -->
+            
+            <div class="row" id="book">
+                <div class="large-1 column" id="test1">
+                    <button id="myBtn"></button>
+                </div>
+                <div class="large-10 column" id="content">
+                </div>
+                <div class="large-1 column">
+                
+                </div>
+            </div>
+            
+          </div>
+    </div>
+
+    <!-- FOOTER AREA -->
+
+    <footer>
+        <div class="row">
+            <div class="small-4 columns clearfix">
+                <a class="button left" id="backBtn">Zurück</a>
+            </div>
+            <div class="small-4 columns text-center">
+                <a class="button center" id="journalBtn">Notizbuch</a>
+            </div>
+            <div class="small-4 columns clearfix">
+                <a class="button right" id="forwardBtn">Weiter</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+    
+    <!-- MODAL AREA -->
+
+      <div id="myModal" class="reveal-modal" data-reveal>
+        <h3>Notizbuch</h3>
+        <p class="lead">Trage hier deine Erkenntnisse ein!</p>
+          
+        <button id="journalTest" onclick="journalTest()">ClickForTest</button>
+            
+        <div class="container" id="journalArea">
+            <div class="inner"></div>
+        </div>
+          
+        <a class="close-reveal-modal">&#215;</a>
+      </div>
+      
+    <!-- SCRIPT AREA -->
+      
+    <script src="javascripts/vendor/jquery.js"></script>
+    <script src="javascripts/foundation.min.js"></script>
+    <script src="javascripts/global.js"></script>
+    <script src="javascripts/vendor/modernizr.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+      
+  
+</html>
