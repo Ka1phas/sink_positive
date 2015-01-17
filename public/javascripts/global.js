@@ -4,20 +4,12 @@ var pageString = "page_";
 $( document ).ready(function() {
     changePage();
     
-    $('#forwardBtn').click(function(){
+    $('#rightSpace').click(function(){
         pageNumber += 1;
         changePage();
     });
     
-     $('#backBtn').click(function(){
-        if(pageNumber >1) {
-            pageNumber -= 1;
-            changePage();
-        }
-       
-    });
-    
-     $('#test1').click(function(){
+     $('#leftSpace').click(function(){
         if(pageNumber >1) {
             pageNumber -= 1;
             changePage();
