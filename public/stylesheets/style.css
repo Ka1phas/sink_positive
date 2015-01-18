@@ -28,6 +28,7 @@ footer{
     font-family: 'Roboto Slab', Georgia, serif;
     font-size: 120%;
     text-align: justify;
+    min-height: 100vh;
 }
 
 #book {
@@ -64,7 +65,7 @@ footer{
 }
 
 body {
-    background-image: url(../images/background03.jpg);
+    background-image: url(../images/leather1.jpg);
     background-color: #1d5257;
 }
 #chatIn {
