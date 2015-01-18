@@ -9,6 +9,18 @@ $( document ).ready(function() {
         changePage();
     });
     
+    $('#rightSpace').hover(function(){
+        $('#rightArrow').fadeIn(500);
+    }, function() {
+        $('#rightArrow').fadeOut(500);
+    });
+    
+     $('#leftSpace').hover(function(){
+        $('#leftArrow').fadeIn(500);
+    }, function() {
+        $('#leftArrow').fadeOut(500);
+    });
+    
      $('#leftSpace').click(function(){
         if(pageNumber >1) {
             pageNumber -= 1;

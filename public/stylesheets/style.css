@@ -47,6 +47,13 @@ footer{
     
 }
 
+.centered {
+    position: fixed;
+    top: 55%;
+    width: 5%;
+    height: 5%;
+}
+
 
 
 /* TWEAKS FOR OUR PAGE */
