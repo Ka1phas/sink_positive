@@ -8,6 +8,9 @@ $(document).ready(function() {
     
 function talk() {
     var input = $('#chatIn').val();
+    if(input === "weiter"){
+        decide(2,1);
+    }
     $('#chatOut').append("<p><b>Nic:</b> '" + input + "'</p>");
     $.ajax({
         url: '/chatbot/',

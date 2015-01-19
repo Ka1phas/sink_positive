@@ -20,7 +20,7 @@
                     <nav class="top-bar" data-topbar role="navigation">
                         <ul class="title-area">
                             <li class="name">
-                                <h1><a href="#">Sink-Positive | Kapitel 1</a></h1>
+                                <h1><a href="#" id="topTitle">Sink-Positive | Kapitel 1</a></h1>
                             </li>
 
                             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
@@ -33,23 +33,30 @@
                             <!-- Right Nav Section -->
 
                             <ul class="right">
-                                <li><a href="#">Beenden</a></li>
+                                <li><a href="#" onclick="safe()"><img src="images/diskette.png" width="40vh" height="40vh"></a></li>
                             </ul>
 
                             <!-- Left Nav Section -->
 
                             <ul class="left">
                                 <li class="has-dropdown">
-                                    <a href="#">Funktionen</a>
+                                    <a href="#"><img src="images/rad.png" width="35vh" height="35vh"></a>
                                     <ul class="dropdown">
                                         <li><a href="#" onclick="setFontSize()">Schriftgröße ändern</a></li>
                                         <li><a href="#" onclick="changeBg()">Nachtmodus an/aus</a></li>
-                                        <li><a href="#" onclick="safe()">Speichern</a></li>
                                         <li><a href="#" onclick="load()">Spiel laden</a></li>
                                         <li><a href="#">Ton aus</a></li>
+                                        <li><a href="#" onclick="restart()">Neustart</a></li>
                                     </ul>
                                 </li>
                             </ul>
+                            
+                            <!-- Middle Nav Section -->
+                            
+                            <ul class="center">
+                                <li><a id="journalBtn" href="#" onclick=""><img src="images/notizblock.png" width="40vh" height="40vh"></a> </li>
+                            </ul>
+                            
                         </section>
                     </nav>
                 </div>
@@ -62,6 +69,8 @@
             <img class="centered" src="images/arrow_left.png" id="leftArrow" style="display: none;">
         </div>
         <div id="content">
+            <div id ="main"></div>
+            <div id="result"></div>
         </div>
         <div id="rightSpace">
             <img class="centered" src="images/arrow_right.png" id="rightArrow" style="display: none;">
@@ -95,14 +104,24 @@
         <h3>Notizbuch</h3>
         <p class="lead">Trage hier deine Erkenntnisse ein!</p>
           
-        <button id="journalTest" onclick="journalTest()">ClickForTest</button>
-            
+ <!--        <button id="journalTest" onclick="journalTest()">ClickForTest</button>-->
         <div class="container" id="journalArea">
             <div class="inner"></div>
         </div>
-          
+<!--        Eingabefeld für eigene Notizen-->
+        <input id="noteIn" type="text" name="question" placeholder="Trage hier deine Notiz eigenhändig ein">
         <a class="close-reveal-modal">&#215;</a>
       </div>
+    
+    <div id="journalModal" class="reveal-modal" data-reveal>
+        <h2>Folgenden Abschnitt ins Notizbuch eintragen?</h2>
+        <div id="markedText"></div>
+        <br><br><br>
+        <div class="row">
+            <button class="button left" id="enterNote">Ja</button>
+            <button class="button right" id="escNote">Nein</button>
+        </div>
+    </div>
       
     <!-- SCRIPT AREA -->
       
